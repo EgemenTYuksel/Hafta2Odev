@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odev</title>
+</head>
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<body style="background-color: aliceblue;">
+    <h1>Liste Örnekleri</h1>
+    <!-- Hepsini örnektekilerle birebir aynı yapmaya çalıştım -->
+    <ol type="A">
+        <li>İç Donanım Birimleri</li>
+        <ul>
+            <li>Anakart</li>
+            <li>İşlemci</li>
+            <li>Ram</li>
+        </ul>
+        <li>Dış Donanım Birimleri</li>
+        <ul type="square">
+            <li>Monitör</li>
+            <li>Klavye</li>
+        </ul>
+    </ol>
+    <hr>
+    <ol start="7">HTML Dersleri: <br><br>
+        <li>Linkler</li>
+        <li>Resimler</li>
+        <li>Listeler</li>
+        <ol type="i">
+            <li>Açıklama</li>
+            <li>Liste Tanımlama</li>
+            <li>İç İçe Liste Kullanımı</li>
+        </ol>
+        <li>Tablolar</li>
+    </ol>
+    <hr>
+    <ol>
+        <li>SICAK İÇECEKLER</li>
+        <ol type="I">
+            <li>ÇAY</li>
+            <li>KAHVE</li>
+            <ol type="a">
+                <li>TÜRK KAHVESİ</li>
+                <li>HAZIR KAHVE</li>
+            </ol>
+            <li>SICAK ÇİKOLATA</li>
+        </ol>
+        <li>SOĞUK İÇECEKLER</li>
+        <ol>
+            <li>MEYVE SULARI</li>
+            <ul>
+                <li>Vişne</li>
+                <li>Şeftali</li>
+                <li>Kayısı</li>
+                <li>Elma</li>
+            </ul>
+            <li>LİMONATA</li>
+        </ol>
+    </ol>
+    <hr>
+    <ol type="1">
+        <li>Elektronik</li>
+        <ol type="a">
+            <li>Bilgisayar & Tablet</li>
+            <ul type="circle">
+                <li>Dizüstü Bilgisayar</li>
+                <li>Masaüstü Bilgisayar</li>
+                <li>Tablet</li>
+            </ul>
+            <li>Telefon & Telefon Aksesuarları</li>
+            <li>Beyaz Eşya</li>
+            <ul type="circle">
+                <li>Çamaşır Makineleri</li>
+                <ul>
+                    <li>Vestel</li>
+                    <li>Samsung</li>
+                    <li>Arçelik</li>
+                </ul>
+                <li>Derin Dondurucular</li>
+                <ul>
+                    <li>Altus</li>
+                    <li>Uğur</li>
+                </ul>
+            </ul>
+        </ol>
+        <li>Ev, Yaşam, Kırtasiye, Ofis</li>
+        <ol type="a">
+            <li>Mobilya</li>
+            <li>Ev Tekstili</li>
+            <li>Aydınlatma</li>
+        </ol>
+        <li>Süpermarket, Petshop</li>
+        <ol type="a">
+            <li>Gıda Ürünleri</li>
+            <ul type="circle">
+                <li>Baharatlar</li>
+                <li>Kahvaltılıklar</li>
+            </ul>
+            <li>Petshop</li>
+            <ul type="circle">
+                <li>Kedi</li>
+                <li>Köpek</li>
+                <li>Balık</li>
+                <li>Kuş</li>
+            </ul>
+        </ol>
+    </ol>
+    <hr>
+    <h1>Tablo Örnekleri</h1>
+    <table>
+        <tr>
+            <th colspan="3" bgcolor="red" style="width: 250px;">Stoklar</th>
+        </tr>
+
+        <tr>
+            <td bgcolor="orange">Sıra No</th>
+            <td bgcolor="green">Stok Adı</th>
+            <td bgcolor="gray">Stok Adeti</th>
+        </tr>
+
+        <tr>
+            <td bgcolor="orange">1</td>
+            <td bgcolor="green">Kalem</td>
+            <td rowspan="3" bgcolor="gray">50</td>
+        </tr>
+
+        <tr>
+            <td bgcolor="orange">2</td>
+            <td bgcolor="green">Kağıt</td>
+        </tr>
+
+        <tr>
+            <td bgcolor="orange">3</td>
+            <td bgcolor="green">Silgi</td>
+        </tr>
+    </table><hr><br>
+    <table>
+        <tr>
+            <th colspan="3" style="width: 350px;" bgcolor="lightblue">Kimlik</th>
+        </tr>
+
+        <tr>
+            <td bgcolor="lightblue">AD</td>
+            <td bgcolor="lightblue">Dursun</td>
+            <td rowspan="3" bgcolor="lightblue"><img src="Images/defaultpp.png" alt="Varsayılan Profil Fotoğrafı"></td>
+        </tr>
+
+        <tr>
+            <td bgcolor="lightblue">Soyad</td>
+            <td bgcolor="lightblue">İNEL</td>
+        </tr>
+
+        <tr>
+            <td bgcolor="lightblue">Doğum Tarihi</td>
+            <td bgcolor="lightblue">20 Temmuz</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="text-align: center;" bgcolor="lightblue">Yazılımcı</td>
+            <td bgcolor="lightblue">Okul NO 2814</td>
+        </tr>
+    </table><hr><br>
+    <table>
+        <tr>
+            <th colspan="12" style="width: 480px;">1</th>
+        </tr>
+
+        <tr>
+            <td colspan="5">2</td>
+            <td colspan="2">3</td>
+            <td colspan="5">4</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="3" colspan="2">5</td>
+            <td colspan="4">6</td>
+            <td colspan="4">7</td>
+            <td rowspan="3" colspan="2">8</td>
+        </tr>
+        <tr>
+            <td colspan="2">9</td>
+            <td colspan="4" rowspan="2">10</td>
+            <td colspan="2">11</td>
+        </tr>
+        <tr>
+            <td colspan="2">12</td>
+            <td colspan="2">13</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>Form Örnekleri</h1>
+    <form>
+        <table border="2">
+    <tr>
+        <td><label for="ad">Ad</label></td>
+        <td colspan="1"><input type="text" name="ad" id="ad"></td>
+    </tr>
+    
+    <tr>
+        <td>Soyad</td>
+        <td colspan="1"><input type="text" name="soyad" id="soyad"></td>
+    </tr>
+    
+    <tr>
+        <td>Yaş</td>
+        <td><input type="number" name="yas" id="yas"></td>
+    </tr>
+    
+    <tr>
+        <td>Resim Ekle</td>
+        <td><div>Nasıl dosya ekleneceğini bilmiyorum</div></td>
+    </tr>
+    
+    <tr>
+        <td>TC No</td>
+        <td><input type="text" name="tc" id="tc"></td>
+    </tr>
+    
+    <tr>
+        <td>Cinsiyet</td>
+        <td>Kadın<input type="radio" name="cinsiyet" id="cinsiyet" value="K">
+        Erkek<input type="radio" name="cinsiyet" id="cinsiyet1" value="E"></td>
+    </tr>
+    
+    <tr>
+        <td>Yabancı Diller</td>
+        <td>İngilizce<input type ="checkbox" name="ingilizce" id="ingilizce"  value="ingilizce">
+            Fransızca<input type="checkbox" name="fransızca" id="fransızca" value="fransızca">       
+            Japonca<input type="checkbox" name="japonca" id="japonca" value="japonca">       
+                   </td>
+        
+        <tr>
+            <td>Görüş</td>
+            <td>
+                <textarea name="gorus" id="gorus" placeholder="Görüşünüz Bizim İçin Önemli"></textarea>
+            </td>    
+        </tr>
+    </tr>
+    
+                <tr>
+    <td colspan="2">
+    <input type="submit" name="kaydet" id="kaydet" value="KAYDET">
+    <input type="reset" name="temizle" id="temizle" value="TEMİZLE">
+
+    </td>
+    </tr>
+
+</table>
+</form>
+
+<hr><br>
+
+<form>
+    Adınız:<input type="text">
+<br>
+    Soyadınız:<input type="text">
+<br>
+    Şifreniz:<input type="password">
+<br>
+    Cinsiyetiniz:<input type="radio" name="gender">Erkek <input type="radio" name="gender">Bayan
+<br>
+    Bildiğiniz Diller:<input type="checkbox">İngilizce 
+<input type="checkbox">Almanca 
+<input type="checkbox">Fransızca
+<br>
+    Yaşadığınız İl: <select>
+        <option>İstanbul</option>
+        <option>İzmir</option>
+        <option>Ankara</option>
+        <option>Diğer Şehirler</option>
+    </select>
+<br>
+    Adresiniz: <br>
+<textarea rows="5" cols="30" placeholder="Adresinizi giriniz."></textarea>
+<br>
+<input type="submit" name="gonder" value="Gönder">
+<input type="reset" name="temizle" value="Temizle">
+</form>
+</body>
+</html>
